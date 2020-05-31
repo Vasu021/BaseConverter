@@ -12,6 +12,7 @@ body{
     color: black;
 }
 
+
 .pro-title{
     width: 90%;
     margin: auto;
@@ -109,4 +110,14 @@ body{
     margin-bottom: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.footer-upper{
+    background-color: black;
+}
+.footer-logo{
+    margin: auto;
+}
+.footer-logo a{
+    color: white;
 }
