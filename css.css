@@ -112,12 +112,17 @@ body{
     padding-bottom: 20px;
 }
 
-.footer-upper{
+.foot{
     background-color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 .footer-logo{
     margin: auto;
 }
 .footer-logo a{
     color: white;
+}
+.col a{
+    color: aliceblue;
 }
