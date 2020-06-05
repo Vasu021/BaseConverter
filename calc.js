@@ -18,7 +18,7 @@ Out.addEventListener("click", getValues, false);                          //call
 
 function getValues(e) {
     if (e.target !== e.currentTarget) {
-        InNum = document.getElementById('inNum').value;
+        
         clickedButton = e.target.id;
         if (clickedButton == "one") {
             OutBase = 1;
@@ -127,6 +127,7 @@ function getInputBase(a) {
 }
 
 function showAns() {
+    InNum = document.getElementById('inNum').value;
     alert("entered no.= " + InNum + ", Input base=" + InBase + ", output base=" + OutBase);
     if (InBase < 11 && OutBase < 11) {
         var num = InNum;
